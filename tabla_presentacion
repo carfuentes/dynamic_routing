@@ -1,0 +1,12 @@
+ GOBPID       Pvalue OddsRatio   ExpCount Count Size                                                                           Term
+2  GO:0009059 1.313000e-54  83.16819 42.9451972   124 4492                                             macromolecule biosynthetic process
+9  GO:0031323 2.314785e-46  65.04825 50.0581150   124 5236                                       regulation of cellular metabolic process
+46 GO:1902895 1.145816e-08  54.31818  0.1720867     6   18 positive regulation of pri-miRNA transcription from RNA polymerase II promoter
+21 GO:0044260 6.610878e-31  53.62943 68.8920506   125 7206                                       cellular macromolecule metabolic process
+24 GO:0008152 2.065608e-17  51.11141 79.7073546   114 9000                                                              metabolic process
+11 GO:0051171 4.052135e-41  49.61492 18.9866667    75 2581                              regulation of nitrogen compound metabolic process
+66 GO:0043923 2.962710e-07  48.97914  0.1529660     5   16                             positive regulation by host of viral transcription
+13 GO:0080090 1.532786e-39  46.45161 19.9356322    75 2710                                        regulation of primary metabolic process
+69 GO:0006337 4.165093e-07  44.89413  0.1625263     5   17                                                         nucleosome disassembly
+70 GO:0030220 4.165093e-07  44.89413  0.1625263     5   17                                                             platelet formation
+> 
