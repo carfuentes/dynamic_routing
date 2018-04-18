@@ -126,7 +126,9 @@ sapply(geneIDs, function(id) id %in% entrez_id_unlisted_res)
 
 
 ##get dict para el dynamical routing
-geneIDs_to_dict <- geneIDs[1:10]
+#geneIDs_to_dict <- geneIDs[1:10]
+geneIDs_to_dict <- geneIDs[c("GO:0070317","GO:0051591")]
+geneIDs_to_dict
 geneId_to_file<-sapply(names(geneIDs_to_dict),function(x) paste(x,paste(geneIDs_to_dict[[x]],collapse=" ")))
 geneId_to_file
 write(geneId_to_file,"test.txt")
