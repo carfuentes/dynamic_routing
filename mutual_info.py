@@ -15,7 +15,7 @@ import pandas as pd
 import scipy as sc
 
 
-
+print("changes")
 
 
 #functions
@@ -57,7 +57,7 @@ def calc_MI_binning(x, y):
     c_xy = np.histogram2d(x, y, bins)[0]
     mi = mutual_info_score(None, None, contingency=c_xy)
     #c_xx=np.histogram2d(x,x,bins)[0]
-    return mi/ent(x)
+    return mi/sqrt(ent(x)*ent(y))
 
 
 #memory-capacity
